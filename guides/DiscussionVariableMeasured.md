@@ -115,8 +115,8 @@ SWEET has a set of property labels with some hierarchical structure providing we
 ### LTER Measurements
 https://vocab.lternet.edu/vocab/vocab/index.php?tema=667&/measurements. A word net, similar to SWEET, but doesn't provide URI or definition.  All term URIs are query fragments on the 'vocab/index.php' resource.
 
-### Structured Variable ontology (SVO)
-SVO does not provide a vocabulary of measured variables based on its model.
+### Scientific Variables Ontology (SVO)
+SVO has separate vocabularies for Variables, Properties and observed Phenomena. Current entries are documented at the namespaces http://geoscienceontology.org/svo/svl/variable, http://geoscienceontology.org/svo/svl/property, and http://geoscienceontology.org/svo/svl/phenomenon, respectively. Raw ttl and rdf files can be obtained with curl [(instructions)](http://geoscienceontology.org/documentation/obtain_files.html) or via browser at, e.g. http://geoscienceontology.org/svo/svl/variable/1.0.0/svo-lower-variable.ttl, http://geoscienceontology.org/svo/svl/variable/1.0.0/svo-lower-property.ttl. 
 
 
 # Recommendations
